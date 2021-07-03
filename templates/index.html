@@ -9,11 +9,15 @@
 </head>
 <body>
     <p>Player 1:</p>
+    <button id = "start" onclick="initialCardPick()">Start</button>
     <button id = "twist" onclick="cardPick()">Hit Me</button>
     <button onclick="restart()">Restart</button>
-    <p id="cardHolder">4</p>
+    <button onclick="stick()">Stick</button>
+    <p id="cardHolder"></p>
+    <p id="cardHolder2"></p>
     <p id="currentCards">0</p>
     <p id="currentTotal">0</p>
+    <p id="finalTotal"></p>
     <p id="bust"></p>
 </body>
 
